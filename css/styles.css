@@ -11,14 +11,58 @@ body {
 a {
   text-decoration: none;
 }
-
+/* common */
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 ul,
 ol {
   list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+/* header */
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.contacts-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 address {
   font-style: normal;
+  margin-left: auto;
 }
 
 /* logo */
@@ -33,6 +77,11 @@ address {
   color: #4d5ae5;
 }
 
+.header-logo {
+  padding: 24px 0;
+  margin: 76px;
+}
+
 .logo-accent {
   color: #2e2f42;
 }
@@ -45,11 +94,18 @@ address {
 
 .nav-link,
 .contact-link {
+  display: block;
+  padding: 24px 0;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 500;
+}
+
+.contact-link {
+  display: block;
+  padding: 24px 0;
 }
 
 .nav-link:hover,
