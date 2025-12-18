@@ -75,9 +75,6 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-}
-
-.header-logo {
   padding: 24px 0;
   margin-right: 76px;
 }
@@ -222,7 +219,7 @@ address {
 }
 
 .team-info {
-  padding: 32px 0;
+  padding: 32px 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
