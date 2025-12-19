@@ -75,12 +75,14 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 .header-logo {
   padding: 24px 0;
-  margin-right: 76px;
 }
 
+.a.logo {
+}
 .logo-accent {
   color: #2e2f42;
 }
@@ -307,7 +309,6 @@ footer {
 .footer-container {
   display: flex;
   flex-direction: column;
-  gap: 16px;
 }
 
 .footer-logo {
