@@ -75,6 +75,8 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+.header-logo {
   padding: 24px 0;
   margin-right: 76px;
 }
@@ -179,6 +181,14 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.feature-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .visually-hidden {
@@ -302,7 +312,7 @@ footer {
 
 .footer-logo {
   display: inline-block;
-  margin-bottom: 0;
+  margin-bottom: 16px;
 }
 
 .footer-text {
